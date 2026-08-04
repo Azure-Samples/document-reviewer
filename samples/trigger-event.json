@@ -1,0 +1,15 @@
+{
+  "body": {
+    "value": [
+      {
+        "Name": "project-atlas-review.pdf",
+        "Path": "/Shared Documents/Document Reviews/project-atlas-review.pdf",
+        "Size": 4812,
+        "ETag": "\"synthetic-version-1\"",
+        "LastModified": "2026-07-31T20:00:00Z",
+        "Id": "synthetic-project-atlas-review",
+        "LinkingUri": "https://contoso.sharepoint.com/sites/reviews/Shared%20Documents/Document%20Reviews/project-atlas-review.pdf"
+      }
+    ]
+  }
+}

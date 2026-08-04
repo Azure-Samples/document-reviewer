@@ -1,0 +1,12 @@
+{
+  "connectorNamespaces": "cns-",
+  "cognitiveServicesAccounts": "cog-",
+  "cognitiveServicesFormRecognizer": "cog-fr-",
+  "insightsComponents": "appi-",
+  "managedIdentityUserAssignedIdentities": "id-",
+  "operationalInsightsWorkspaces": "log-",
+  "resourcesResourceGroups": "rg-",
+  "storageStorageAccounts": "st",
+  "webServerFarms": "plan-",
+  "webSitesFunctions": "func-"
+}

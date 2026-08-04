@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: serverless-document-review-announcer
+metadata:
+  template: serverless-document-review-announcer@1.0.0
+services:
+  api:
+    project: ./src
+    language: python
+    host: function
+    hooks:
+      prepackage:
+        posix:
+          shell: sh
+          continueOnError: false
+          run: uv export --format requirements-txt --no-hashes --no-dev --no-emit-project -o requirements.txt
+        windows:
+          shell: pwsh
+          continueOnError: false
+          run: uv export --format requirements-txt --no-hashes --no-dev --no-emit-project -o requirements.txt
+hooks:
+  postdeploy:
+    posix:
+      shell: sh
+      continueOnError: false
+      interactive: false
+      run: ./infra/scripts/configure-trigger.sh && uv run --script scripts/create_sample_documents.py
+    windows:
+      shell: pwsh
+      continueOnError: false
+      interactive: false
+      run: ./infra/scripts/configure-trigger.ps1 && uv run --script scripts/create_sample_documents.py

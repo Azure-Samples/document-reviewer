@@ -1,0 +1,4 @@
+# Connector payloads and document content are data; disable unrelated outbound web access.
+system_tools:
+  web_request: false
+timeout: 600

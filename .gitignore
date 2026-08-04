@@ -1,0 +1,17 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+!.env.sample
+.azure/
+.azurite/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+src/.venv/
+src/local.settings.json
+samples/documents/
+
+infra/main.json
