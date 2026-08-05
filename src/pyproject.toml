@@ -1,7 +1,7 @@
 [project]
 name = "serverless-document-review-announcer"
 version = "0.1.0"
-description = "SharePoint-triggered document review announcer on Azure Functions Serverless Agents."
+description = "SharePoint-triggered document reviewer on Azure Functions Serverless Agents."
 requires-python = ">=3.13,<3.14"
 dependencies = [
     "aiohttp>=3.14,<4",

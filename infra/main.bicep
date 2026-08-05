@@ -49,7 +49,7 @@ param modelVersion string = '2026-03-05'
 @description('Foundry model capacity in thousands of tokens per minute.')
 param modelCapacity int = 10
 
-metadata name = 'Serverless SharePoint Document Review Announcer'
+metadata name = 'Document Reviewer'
 metadata description = 'Azure Functions Serverless Agents sample using SharePoint and Teams Connector Namespace connections.'
 
 var abbrs = loadJsonContent('./abbreviations.json')

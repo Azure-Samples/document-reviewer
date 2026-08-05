@@ -1,5 +1,5 @@
 ---
-name: Document Review Announcer
+name: Document Reviewer
 description: Reviews new SharePoint PDF and DOCX files and posts grounded briefs to one fixed Teams channel.
 trigger:
   type: connector_trigger

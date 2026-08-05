@@ -1,6 +1,6 @@
 <!--
 ---
-name: SharePoint document review announcer with Azure Functions Serverless Agents
+name: Document Reviewer
 description: Review new SharePoint PDF and DOCX files and post grounded briefs to Microsoft Teams.
 page_type: sample
 languages:
@@ -16,7 +16,7 @@ products:
 ---
 -->
 
-# Serverless Document Review Announcer
+# Document Reviewer
 
 A markdown-first Azure Functions serverless agent that reviews new SharePoint
 PDF and DOCX files and posts an evidence-backed brief to one Microsoft Teams

@@ -35,7 +35,7 @@ resource foundryProject 'Microsoft.CognitiveServices/accounts/projects@2025-10-0
   }
   properties: {
     displayName: projectName
-    description: 'Serverless document review announcer sample project'
+    description: 'Document Reviewer sample project'
   }
 }
 
