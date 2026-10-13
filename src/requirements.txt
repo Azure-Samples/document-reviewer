@@ -376,7 +376,7 @@ uvicorn==0.52.0
     # via
     #   azurefunctions-extensions-http-fastapi
     #   mcp
-werkzeug==3.1.8
+werkzeug==3.1.9
     # via azure-functions
 wrapt==1.17.3
     # via
