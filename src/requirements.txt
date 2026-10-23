@@ -90,7 +90,7 @@ azurefunctions-extensions-base==1.2.0
     # via azurefunctions-extensions-http-fastapi
 azurefunctions-extensions-http-fastapi==1.0.1
     # via azurefunctions-agents-runtime
-certifi==2026.7.22
+certifi==2026.10.19
     # via
     #   httpcore
     #   httpx
