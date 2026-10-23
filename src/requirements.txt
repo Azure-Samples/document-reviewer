@@ -180,7 +180,7 @@ openai==2.52.0
     # via
     #   agent-framework-openai
     #   azure-ai-projects
-opentelemetry-api==1.40.0
+opentelemetry-api==1.45.1
     # via
     #   agent-framework-core
     #   azure-core-tracing-opentelemetry
